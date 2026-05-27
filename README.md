@@ -13,8 +13,7 @@ Sistema desenvolvido em linguagem C para monitoramento básico de missão espaci
 
 ## Tecnologias utilizadas
 - Linguagem C
-- GCC
-
+  
 ## Participantes
 
 - Lucas Silva de Abreu - RM: 572321
