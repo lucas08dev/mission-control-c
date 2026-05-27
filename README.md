@@ -1,16 +1,24 @@
-O sistema foi desenvolvido em linguagem C utilizando estruturas condicionais, repetição, switch case e variáveis.
+# Mission Control C System
 
-O programa possui um menu interativo onde o usuário pode:
+## Descrição
+Sistema desenvolvido em linguagem C para monitoramento básico de missão espacial.
 
-* inserir dados da missão;
-* visualizar status;
-* executar análises;
-* encerrar o sistema.
+## Funcionalidades
+- Inserção de dados da missão
+- Monitoramento de temperatura
+- Verificação de energia
+- Verificação de comunicação
+- Alertas automáticos
+- Menu interativo com switch()
 
-Durante a análise, o sistema verifica:
+## Tecnologias utilizadas
+- Linguagem C
+- GCC
 
-* superaquecimento;
-* nível crítico de energia;
-* falha de comunicação.
+## Como executar
 
-Os alertas são exibidos automaticamente no terminal.
+Compilar:
+gcc mssctl.c -o mssctl
+
+Executar:
+.\mssctl
